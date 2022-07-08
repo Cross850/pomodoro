@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+
+body {
+    background: linear-gradient(rgb(137, 207, 145), #ff0000b2);
+    background-size: contain;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.timerDisplay {
+    text-align: center;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 34px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons {
+    text-align: center;
+    margin: 1% 45% 0 45%;
+    height: 40px;
+}
+
+.tomatoImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}
+
+.button5min, .button30min {
+    display: none;
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    border-top: 0;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 156, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.button5min:hover, .button30min:hover {
+    border-top: 4px solid rgba(255, 255, 255, 0.9);
+    background-color: rgb(0, 112, 0);
+}
+
+.button25min {
+    margin: auto;
+    height: 100%;
+    border-radius: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    border-top: 0;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 156, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.button25min:hover {
+    border-top: 4px solid rgba(255, 255, 255, 0.9);
+    background-color: rgb(0, 112, 0);
+}
+
+#log {
+    width: 25%; 
+    height: 250px;
+    max-height: 250px;
+    margin: 2% 0 0 23%;
+    border-radius: 5px;
+    border: white ridge;
+    background-color: white;
+    overflow-y: auto;
+    padding: 1% 2%;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#pomodoriCount {
+    width: 25%; 
+    height: 250px;
+    max-height: 250px;
+    margin: 2% 22% 0 3.5%;
+    border-radius: 5px;
+    border: white ridge;
+    background-color: white;
+    overflow-y: auto;
+    padding: 4% 2%;
+    display: inline-block;
+    text-align: center;
+}
+
+.pomodori1, .pomodori2, .pomodori3, .pomodori4 {
+    height: 75px;
+    display: none;
+}

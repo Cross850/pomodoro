@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/pomodoro.css">
+    </head>
+    <body>
+        <img src="assets/3516@2x.png" alt="" class="tomatoImg">
+        <div class="title">
+            <h1>POMODORO</h1>
+        </div>
+        <div class="timerDisplay">
+            00 : 00
+        </div>
+        <div class="buttons">
+            <button onclick="startTimer25()" class="button25min">START</button>
+            <button onclick="startTimer5()" class="button5min">BREAK</button>
+            <button onclick="startTimer30()" class="button30min">BIG BREAK</button>
+        </div>
+        <div class="container">
+            <div id="log">
+
+            </div>
+            <div id="pomodoriCount">
+                <img src="assets/3516@2x.png" class="pomodori1">
+                <img src="assets/3516@2x.png" class="pomodori2">
+                <img src="assets/3516@2x.png" class="pomodori3">
+                <img src="assets/3516@2x.png" class="pomodori4">
+            </div>
+        </div>
+        <script src="assets/webworker.js"></script>
+        <script src="assets/pomodoro.js"></script>
+    </body>
+</html>
